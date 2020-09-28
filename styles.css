@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: Lato;
+  background: white; /* try type yellow */
+  color: #323232;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#potato {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 10rem;
+  text-decoration: none;
+  transition: 0.2s;
+  padding-bottom: 0.25em;
+}
+
+#potato:hover {
+  transform: scale(1.1);
+}
+
+#potato:active {
+  transform: scale(1.05);
+}
+
+.button {
+  border-radius: 0.5em;
+  background-color: chocolate;
+  color: white;
+  font-weight: 700;
+  padding: 0.5em 1em;
+  margin-bottom: 2em;
+  text-decoration: none;
+}
